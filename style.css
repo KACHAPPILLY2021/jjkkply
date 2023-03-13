@@ -460,7 +460,7 @@ transform: translateY(0);
   }
 }
 
-@media (max-width: 32.5em) {
+@media (max-width: 37.5em) {
   .wrapper {
     width: calc(100% - 3.75rem);
   }
