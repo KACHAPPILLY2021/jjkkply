@@ -527,10 +527,10 @@ transform: translateY(0);
   }
 }
 
-@media (max-width: 37.5em) {
+/*@media (max-width: 37.5em) {
   .header {
     margin-block-start: 30px;
-    /* margin-block-end: 90px; */
+   
   }
 
   .header__nav {
@@ -538,7 +538,7 @@ transform: translateY(0);
     align-items: center;
     text-align: left;
     gap: 32px;
-    /*padding-right: 10px;*/
+   
   }
 
   .header__home {
@@ -546,7 +546,7 @@ transform: translateY(0);
     margin-inline-end: auto;
   }
 }
-
+*/
 @media (min-width: 62.5em) {
   .header {
     margin-block-start: 40px;
