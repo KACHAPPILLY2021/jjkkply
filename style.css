@@ -654,9 +654,7 @@ h1 > span {
     left: auto;
     right: 0;
     translate: 0; 
-    display: flex;
-      justify-content: center;
-      align-items: center;
+    
       /* display: flex;
       justify-content: center;
       align-items: center; */
