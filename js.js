@@ -1,15 +1,15 @@
 //if (screen.width < 767){
 //  window.location.reload();
 //}
-function changeViewport() {
-  var screenWidth = window.innerWidth;
-  var mobileMaxWidth = 767; // set your mobile viewport width here
-  if (screenWidth <= mobileMaxWidth) {
-    var viewportMeta = document.querySelector('meta[name="viewport"]');
-    viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1');
-    location.reload();
-  }
-}
+//function changeViewport() {
+//  var screenWidth = window.innerWidth;
+//  var mobileMaxWidth = 767; // set your mobile viewport width here
+//  if (screenWidth <= mobileMaxWidth) {
+//    var viewportMeta = document.querySelector('meta[name="viewport"]');
+//    viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1');
+//    location.reload();
+//  }
+//}
 
   
   const elements = document.querySelectorAll('.slide-in');
