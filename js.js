@@ -1,6 +1,6 @@
-if (screen.width < 767){
-  window.location.reload();
-}
+//if (screen.width < 767){
+//  window.location.reload();
+//}
   
   const elements = document.querySelectorAll('.slide-in');
 
