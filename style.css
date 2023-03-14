@@ -527,6 +527,36 @@ transform: translateY(0);
   }
 }
 
+@media (max-width: 37.5em) {
+  .header {
+    margin-block-start: 45px;
+    /* margin-block-end: 90px; */
+  }
+
+  .header__nav {
+    justify-content:flex-start;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 12px;
+    padding-right: 10px;
+  }
+ .hero__image{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.header__social > svg > path{
+  fill: white;
+  font-size: 10px;
+}
+  .header__home {
+    flex: 0 1 auto;
+    margin-inline-end: auto;
+  }
+}
+
 /*@media (max-width: 37.5em) {
   .header {
     margin-block-start: 30px;
