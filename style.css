@@ -20,6 +20,30 @@
   --transition: 250ms ease-in-out;
 }
 
+/* Media query for desktop view */  
+  .header__home .desktop-view {
+    display: inline;
+  }
+  
+  /* Hide mobile view text */
+  .header__home .mobile-view {
+    display: none;
+  }
+
+
+/* Media query for mobile view */
+@media (max-width: 37.5rem) {
+  /* Hide desktop view text */
+  .header__home .desktop-view {
+    display: none;
+  }
+  
+  /* Show mobile view text */
+  .header__home .mobile-view {
+    display: inline;
+  }
+}
+
 html,
 body {
    overflow-x: hidden;
